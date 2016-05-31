@@ -20,6 +20,12 @@
 \RequirePackage{lastpage}
 \RequirePackage{fontawesome}
 
+\newcommand{\TFrom}{De}
+\newcommand{\Tto}{à}
+\newcommand{\TPage}{Page}
+\newcommand{\Tof}{de}
+\newcommand{\TFooter}{Références disponibles sur demande}
+
 \geometry{
     a4paper,
     left=20mm,
@@ -64,11 +70,11 @@
     }
 
     \cfoot{
-        \emph{Références disponibles sur demande}
+        \emph{\TFooter}
     }
 
     \rfoot{
-        Page \textbf{\thepage}~sur \textbf{\pageref*{LastPage}}
+        \TPage ~ \textbf{\thepage} \Tof ~ \textbf{\pageref*{LastPage}}
     }
 }
 
@@ -80,7 +86,7 @@
 
 \newenvironment{Experience}{
     \newcommand{\Item}[6]{
-        \begin{minipage}[t]{0.15\columnwidth} \raggedleft \small De ##1 à ##2 \end{minipage} &
+        \begin{minipage}[t]{0.15\columnwidth} \raggedleft \small \TFrom ~ ##1 ~ \Tto ~ ##2 \end{minipage} &
         \begin{minipage}[t]{0.76\columnwidth} \textbf{##3} : ##4. \\ ##5, \emph{##6} \end{minipage}
         \vspace{5mm}
         \tabularnewline
