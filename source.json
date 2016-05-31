@@ -19,7 +19,8 @@
             {
                 "name": "Logiciel",
                 "what": "*C*, *C++* maîtrisés.\n
-                         *Embarqué* sur ARM en assembleur et C ou C++.\n
+                         *Assembleurs* x86, x64 et ARM.\n
+                         *Embarqué* en assembleur ou C/C++.\n
                          *Python*, Bash et Matlab.\n
                          Parallélisation avec CUDA/C.\n
                          Interfaces graphiques avec *Qt*4/5, OpenGL.\n

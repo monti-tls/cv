@@ -122,7 +122,7 @@
     \newcommand\Item[2]{%
         \mbox{%
             \begin{minipage}[t]{\dimexpr\cardwidth-2\fboxsep-2\fboxrule\relax}%
-            \headline{\textbf{##1}} \vspace{2.5mm} \small ##2%
+            \headline{##1} \vspace{2.5mm} \small ##2%
             \end{minipage}%
             \hspace{4mm}%
         }%
