@@ -1,0 +1,92 @@
+{
+    "header":
+    {
+        "name"    : "Alexandre MONTI",
+        "title"   : "Élève ingénieur",
+        "spec"    : "Électronique et Automatique",
+        "sspec"   : "Spécialité *Systèmes Embarqués Critiques*",
+        "addr"    : "8166 rue Saint-André\nMontréal, QC H2P 1Y5",
+        "tel"     : "+1 (438) 870-2542",
+        "mel"     : "monti@etud.insa-toulouse.fr",
+        "github"  : "github.com/monti-tls",
+        "linkedin": "fr.linkedin.com/in/montitls"
+    },
+
+    "skills":
+    {
+        "categories":
+        [
+            {
+                "name": "Logiciel",
+                "what": "*C*, *C++* maîtrisés.\n
+                         *Embarqué* sur ARM en assembleur et C ou C++.\n
+                         *Python*, Bash et Matlab.\n
+                         Parallélisation avec CUDA/C.\n
+                         Interfaces graphiques avec *Qt*4/5, OpenGL.\n
+                         Développement niveau OS embarqué ou sur GNU/Linux.\n
+                         Reconnaissance d'images.\n
+                         Sécurité au niveau applicatif."
+            },
+            {
+                "name": "Matériel",
+                "what": "*Traitement* du signal, électronique de *puissance*.\n
+                         *Commande* de systèmes linéaires et non linéaires.\n
+                         Commandes optimale et robuste, connaissances solides en électronique numérique et bus de *communication* : USB, CAN, I2C, SPI.\n
+                         Programmation VHDL."
+            },
+            {
+                "name": "Autres",
+                "what": "Maîtrise de GNU/Linux, bureautique avec *LaTeX*\n
+                         Bonnes connaissances en mathématiques et physique classique, notions en relativité retreinte et mécanique quantique."
+            }
+        ]
+    },
+
+    "experience":
+    [
+        {
+            "from"    : "fév. 2016",
+            "to"      : "aoû. 2016",
+            "main"    : "Stage ingénieur de recherche",
+            "what"    : "développement d'un outil de protection contre le hacking et la rétro-ingénierie au niveau applicatif",
+            "where"   : "École Polytechnique de Montréal",
+            "location": "Montréal, Québec, Canada"
+        },
+        {
+            "from"    : "jun. 2015",
+            "to"      : "sep. 2015",
+            "main"    : "Stage ingénieur",
+            "what"    : "développement d'un système de reconnaissance d'images embarqué en temps réel",
+            "where"   : "ACTIA Automotive",
+            "location": "Toulouse (31), France"
+        },
+        {
+            "from"    : "2012",
+            "to"      : "2015",
+            "main"    : "Cours particuliers",
+            "what"    : "Mathématiques, Physique et Chimie niveau BAC S",
+            "where"   : "à domicile",
+            "location": "Toulouse (31), France"
+        }
+    ],
+
+    "studies":
+    [
+        {
+            "from"    : "2013",
+            "to"      : "2016",
+            "main"    : "Cursus ingénieur",
+            "what"    : "Spécialité Électronique et Automatique / spécialisation Systèmes Embarqués Critiques",
+            "where"   : "Institut National des Sciences Appliquées de Toulouse",
+            "location": "Toulouse (32), France"
+        },
+        {
+            "from"    : "2011",
+            "to"      : "2013",
+            "main"    : "Classe Préparatoire aux Grandes Écoles",
+            "what"    : "Physique, Chimie et Mathématiques",
+            "where"   : "lycée Pierre de Fermat",
+            "location": "Toulouse (31), France"
+        }
+    ]
+}
